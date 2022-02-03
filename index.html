@@ -11,39 +11,124 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/d5fdc24f4a.js" crossorigin="anonymous"></script>
 <!-- page title -->
     <title>Parallax Practice</title>
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <!-- Body -->
   <body>
-    <!-- Beginning Section 1 -->
-    <section class="container-fluid class2" style="background-image: url(/img/pexels-quintin-gellar-844167.jpg);">
-      <!-- beginning of navbar -->
-    <nav class="navbar navbar-expand-xxxl navbar-light bg-transparent">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Road Trip</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">section1</a>
-            <a class="nav-link" href="#">section2</a>
-            <a class="nav-link" href="#">section3</a>
+    <!-- parallax image 1 -->
+    <div class="parallax" id="top">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-xxxl navbar-light bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Road Trip</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#top">Home</a>
+              <a class="nav-link" href="#section2">Get Some Friends</a>
+              <a class="nav-link" href="#section3">Pick A Location</a>
+              <a class="nav-link" href="#section4">Pack A Few Things</a>
+               <a class="nav-link" href="#section5">Get On The Road</a> 
+               <a class="nav-link" href="#section6">Contact</a>
+            </div>
           </div>
         </div>
+      </nav>
+      <div class="container text-center p-5 mt-5">
+        <h1 class="display-1 mainheading" >This is Road Trip</h1>
       </div>
-    </nav>
-<!-- beginning of jumbotron -->
-<div class="mt-2 mb-4  p-5">
-    <div class="container-fluid py-5">
-        <h1 class="display-1 fw-bold text-center mt-5 p-5 class">This is Road Trip</h1>
-        
+    </div>
+<!-- overlay 1 -->
+<div class=" bg-light text-dark text-center p-5 mainheading fw-bold" style="height:150px;font-size:36px" id="section2">
+Get Some Friends
+</div>
+
+<!-- parallax image 2 -->
+<div class="parallax2">
+<div class="mt-2 mb-4 text-center text-light rounded-3">
+  <!-- jumbtron -->
+    <div class="container p-5 bg-dark rounded-3 jumbotron">
+        <h1 class="display-5 fw-bold mainheading">Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+        <h3>01.01.2017</h3>
+        <p class="col-md-8 col-xxl-12 fs-4 p-5 maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, laboriosam libero modi sunt consequuntur provident, dicta labore dolore magni laudantium officiis ad quisquam doloribus similique? Suscipit molestiae sed earum! Voluptas veritatis suscipit laboriosam quo sapiente. Magnam consequatur ut ad, molestiae tenetur eaque, ratione repellat voluptate, beatae pariatur nulla repudiandae. Veritatis!</p>
+        <button class="btn btn-dark border-secondary btn-lg" type="button">Learn More</button>
     </div>
 </div>
-</section>
+</div>
+<!-- overlay 2 -->
+<div class=" bg-light text-dark text-center p-5 mainheading fw-bold" style="height:150px;font-size:36px" id="section3">
+  Pick A Location
+  </div>
+  <!-- parallax image 3 -->
+  <div class="parallax3">
+    <div class="mt-2 mb-4 text-center text-light rounded-3">
+      <!-- jumbtron -->
+        <div class="container p-5 bg-dark rounded-3 jumbotron">
+            <h1 class="display-5 fw-bold mainheading">Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+            <h3>01.01.2017</h3>
+            <p class="col-md-8 col-xxl-12 fs-4 p-5 maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, laboriosam libero modi sunt consequuntur provident, dicta labore dolore magni laudantium officiis ad quisquam doloribus similique? Suscipit molestiae sed earum! Voluptas veritatis suscipit laboriosam quo sapiente. Magnam consequatur ut ad, molestiae tenetur eaque, ratione repellat voluptate, beatae pariatur nulla repudiandae. Veritatis!</p>
+            <button class="btn btn-dark border-secondary btn-lg" type="button">Learn More</button>
+        </div>
+    </div>
+  </div>
+  <!-- overlay 3 -->
+  <div class=" bg-light text-dark text-center p-5 mainheading fw-bold" style="height:150px;font-size:36px" id="section4">
+    Pack A Few Things
+    </div>
+    <!-- parallax image 4 -->
+    <div class="parallax4">
+      <div class="mt-2 mb-4 text-center text-light rounded-3">
+        <!-- jumbtron -->
+          <div class="container p-5 bg-dark rounded-3 jumbotron">
+              <h1 class="display-5 fw-bold mainheading">Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+              <h3>01.01.2017</h3>
+              <p class="col-md-8 col-xxl-12 fs-4 p-5 maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, laboriosam libero modi sunt consequuntur provident, dicta labore dolore magni laudantium officiis ad quisquam doloribus similique? Suscipit molestiae sed earum! Voluptas veritatis suscipit laboriosam quo sapiente. Magnam consequatur ut ad, molestiae tenetur eaque, ratione repellat voluptate, beatae pariatur nulla repudiandae. Veritatis!</p>
+              <button class="btn btn-dark border-secondary btn-lg" type="button">Learn More</button>
+          </div>
+      </div>
+    </div>
+    <!-- overlay 5 -->
+    <div class=" bg-light text-dark text-center p-5 mainheading fw-bold" style="height:150px;font-size:36px" id="section5">
+      Get On The Road
+      </div>
+      <div class="parallax5">
+        <div class="mt-2 mb-4 text-center text-light rounded-3">
+          <!-- jumbtron -->
+            <div class="container p-5 bg-dark rounded-3 jumbotron">
+                <h1 class="display-5 fw-bold mainheading">Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+                <h3>01.01.2017</h3>
+                <p class="col-md-8 col-xxl-12 fs-4 p-5 maintext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, laboriosam libero modi sunt consequuntur provident, dicta labore dolore magni laudantium officiis ad quisquam doloribus similique? Suscipit molestiae sed earum! Voluptas veritatis suscipit laboriosam quo sapiente. Magnam consequatur ut ad, molestiae tenetur eaque, ratione repellat voluptate, beatae pariatur nulla repudiandae. Veritatis!</p>
+                <button class="btn btn-dark border-secondary btn-lg" type="button">Learn More</button>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- footer -->
+<footer>
+  <div class="container-fluid bg-danger text-center text-light p-5" id="section6">
+    <div class="row">
+      <div class="col footerfont">
+        <h1 class="display-5 fw-bolder ">Contact</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col p-5 mt-2"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="row">
+      <p>&copy; Untitled Design: Dustin Petersen. Images: Pexler</p>
+    </div>
+  </div>
+</footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

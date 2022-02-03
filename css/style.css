@@ -1,10 +1,87 @@
-.class{
-    font-family: 'Dancing Script', cursive;
-    width: 100%;
-    
-    
-}
-.class2{
+.parallax {
+    /* The image used */
+    background-image: url("/img/pexels-quintin-gellar-844167.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 1235px;
-}
+    background-size: cover;
+  }
+  .mainheading{
+    font-family: 'Dancing Script', cursive;
+    
+  }
+  .maintext{
+    font-family: 'Open Sans Condensed', sans-serif;;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("/img/pexels-sake-le-2101538.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .jumbotron{
+      position: relative;
+      top: 100px;
+      opacity: 75%;
+      height: 500px;
+      width: 1000px;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("/img/pexels-dominika-roseclay-1252500.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax4 {
+    /* The image used */
+    background-image: url("/img/pexels-gustavo-fring-4173092.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax5 {
+    /* The image used */
+    background-image: url("/img/pexels-cottonbro-6110062.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  i {
+    background-color: rgb(223, 101, 101);
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
